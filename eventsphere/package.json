@@ -1,0 +1,12 @@
+{
+  "name": "eventsphere",
+  "version": "1.0.0",
+  "description": "EventSphere — Full-Stack College Event Platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm start"
+  },
+  "workspaces": ["backend", "frontend"]
+}
